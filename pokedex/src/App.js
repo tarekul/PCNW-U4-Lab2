@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
+
+import Component1 from './components/Comp1';
+import Component2 from './components/Comp2';
+import StatView from './components/StatView';
+
 import Search from './components/Search'
 import Pokelist from './components/Pokelist'
 import StatView from './components/StatView'
 import axios from 'axios'
+
 import './App.css';
 const { pokemons } = require('./pkmn-list')
 
