@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Component1 from './components/Comp1'
-import Component2 from './components/Comp2'
-import StatView from './components/StatView'
+import Component1 from './components/Comp1';
+import Component2 from './components/Comp2';
+import StatView from './components/StatView';
 import './App.css';
 const {pokemons} = require('./pkmn-list')
 

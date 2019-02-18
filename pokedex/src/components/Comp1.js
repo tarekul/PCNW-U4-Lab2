@@ -25,14 +25,14 @@ const Component1 = (props) =>{
     <div className='row col-12 topred'></div>
     <div className = 'row'>
         <div className='col-4'>
-            <img className='img' src='https://i.ebayimg.com/images/g/HCgAAOxy63FSrBOH/s-l300.jpg'/>
+            <img className='img' src='https://i.ebayimg.com/images/g/HCgAAOxy63FSrBOH/s-l300.jpg' alt=''/>
         </div>
         <div className='col-4'>
             <h2 style={{color:"red"}}>Pursuit Pokedex</h2> 
             <input className='input' type="text" placeholder='Search...' onChange={e=>suggest(e.target.value,props.pokemons)} onKeyDown={e=>changeState(e)}/>
         </div>    
         <div className = 'col-4'>
-            <img style={{float:'right'}} className='img' src='https://i.ebayimg.com/images/g/HCgAAOxy63FSrBOH/s-l300.jpg'/>
+            <img style={{float:'right'}} className='img' src='https://i.ebayimg.com/images/g/HCgAAOxy63FSrBOH/s-l300.jpg'alt=''/>
         </div>
     </div>
     </>
