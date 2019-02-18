@@ -17,10 +17,10 @@ class Component1 extends Component{
             this.setState({search:temp})
         }
         else if(e !== ''){
-          console.clear()
+        //   console.clear()
           for(let i=0;i<pokemons.length;i++){
             if(pokemons[i].toLowerCase().startsWith(e.toLowerCase())) {
-                console.log(pokemons[i])
+                // console.log(pokemons[i])
                 temp.push(pokemons[i])
                 if(temp.length === 5) break;
               }
