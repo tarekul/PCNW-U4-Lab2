@@ -10,7 +10,7 @@ const pokeList = (results,changeState)=>{
         else if(num.length === 3) num = "# 0" + (e["url"].slice(34,36))
         else if(num.length === 4) num = "# " + (e["url"].slice(34,37))
         return (
-            <div className='tohover borderrow' onClick={event=>{changeState({currentPokemon:e["name"],currentPage:'stat'})}} key = {i}> 
+            <div className='tohover borderrow' onClick={event=>{changeState({currentPokemon:e["name"],currentPage:'stat',num:num.slice(2)})}} key = {i}> 
                 <div className='col-6'>
                     <img src={img} alt="pokemon"/> 
                     {e["name"]}
